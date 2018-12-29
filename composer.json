@@ -1,0 +1,36 @@
+{
+  "name": "nicedump/nicedump-twig",
+  "description": "Twig extension for dumping a variable in NiceDump format",
+  "license": "MIT",
+  "type": "library",
+  "keywords": [
+    "nice",
+    "dump",
+    "twig",
+    "extension"
+  ],
+  "authors": [
+    {
+      "name": "Michael Hall",
+      "homepage": "https://michaelhall.se/"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "twig/twig": "^2.4",
+    "nicedump/nicedump": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "NiceDumpTwig\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "NiceDumpTwig\\Tests\\": "tests"
+    }
+  }
+}
