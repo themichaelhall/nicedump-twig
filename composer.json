@@ -18,7 +18,7 @@
   "require": {
     "php": ">=7.1",
     "twig/twig": "^2.4",
-    "nicedump/nicedump": "dev-master"
+    "nicedump/nicedump": "^1.0"
   },
   "require-dev": {
     "phpunit/phpunit": "^7.0"
