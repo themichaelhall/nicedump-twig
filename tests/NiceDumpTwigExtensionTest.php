@@ -105,7 +105,7 @@ class NiceDumpTwigExtensionTest extends TestCase
     /**
      * Set up.
      */
-    public function setUp()
+    public function setUp(): void
     {
         $arrayLoader = new ArrayLoader([
             'test.twig'              => '{{ nice_dump(var) }}',
@@ -123,7 +123,7 @@ class NiceDumpTwigExtensionTest extends TestCase
     /**
      * Tear down.
      */
-    public function tearDown()
+    public function tearDown(): void
     {
         $this->twigEnvironment = null;
         $this->niceDumpTwigExtension = null;
