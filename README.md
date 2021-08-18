@@ -1,14 +1,13 @@
 # NiceDump extension for Twig
 
-[![Build Status](https://travis-ci.org/themichaelhall/nicedump-twig.svg?branch=master)](https://travis-ci.org/themichaelhall/nicedump-twig)
-[![AppVeyor](https://ci.appveyor.com/api/projects/status/github/themichaelhall/nicedump-twig?branch=master&svg=true)](https://ci.appveyor.com/project/themichaelhall/nicedump-twig/branch/master)
+[![Tests](https://github.com/themichaelhall/nicedump-twig/workflows/tests/badge.svg?branch=master)](https://github.com/themichaelhall/nicedump-twig/actions)
 [![codecov.io](https://codecov.io/gh/themichaelhall/nicedump-twig/coverage.svg?branch=master)](https://codecov.io/gh/themichaelhall/nicedump-twig?branch=master)
 [![StyleCI](https://styleci.io/repos/163513640/shield?style=flat&branch=master)](https://styleci.io/repos/163513640)
 [![License](https://poser.pugx.org/nicedump/nicedump-twig/license)](https://packagist.org/packages/nicedump/nicedump-twig)
 [![Latest Stable Version](https://poser.pugx.org/nicedump/nicedump-twig/v/stable)](https://packagist.org/packages/nicedump/nicedump-twig)
 [![Total Downloads](https://poser.pugx.org/nicedump/nicedump-twig/downloads)](https://packagist.org/packages/nicedump/nicedump-twig)
 
-Twig extension to dump a variable according to the [NiceDump format specification](https://nicedump.net/). 
+Twig extension to dump a variable according to the [NiceDump format specification](https://nicedump.net/).
 
 ## Requirements
 
@@ -42,7 +41,7 @@ eyJ0eXBlIjoic3RyaW5nIiwidmFsdWUiOiJGb28iLCJzaXplIjozfQ==
 -->
 ```
 
-Notice that the NiceDump in enclosed in a HTML comment.
+Notice that the NiceDump in enclosed in an HTML comment.
 
 ### Dump a variable with a name
 
