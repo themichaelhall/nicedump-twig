@@ -92,7 +92,7 @@ class NiceDumpTwigExtensionTest extends TestCase
      *
      * @return array
      */
-    public function enableInReleaseModeDataProvider()
+    public function enableInReleaseModeDataProvider(): array
     {
         return [
             [false, false, ''],
@@ -107,6 +107,8 @@ class NiceDumpTwigExtensionTest extends TestCase
      */
     public function setUp(): void
     {
+        parent::setUp();
+
         $arrayLoader = new ArrayLoader([
             'test.twig'              => '{{ nice_dump(var) }}',
             'test_with_name.twig'    => '{{ nice_dump(var, "My name") }}',
@@ -127,6 +129,8 @@ class NiceDumpTwigExtensionTest extends TestCase
     {
         $this->twigEnvironment = null;
         $this->niceDumpTwigExtension = null;
+
+        parent::tearDown();
     }
 
     /**
