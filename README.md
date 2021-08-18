@@ -1,7 +1,6 @@
 # NiceDump extension for Twig
 
 [![Tests](https://github.com/themichaelhall/nicedump-twig/workflows/tests/badge.svg?branch=master)](https://github.com/themichaelhall/nicedump-twig/actions)
-[![codecov.io](https://codecov.io/gh/themichaelhall/nicedump-twig/coverage.svg?branch=master)](https://codecov.io/gh/themichaelhall/nicedump-twig?branch=master)
 [![StyleCI](https://styleci.io/repos/163513640/shield?style=flat&branch=master)](https://styleci.io/repos/163513640)
 [![License](https://poser.pugx.org/nicedump/nicedump-twig/license)](https://packagist.org/packages/nicedump/nicedump-twig)
 [![Latest Stable Version](https://poser.pugx.org/nicedump/nicedump-twig/v/stable)](https://packagist.org/packages/nicedump/nicedump-twig)
