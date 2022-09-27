@@ -16,7 +16,7 @@
     }
   ],
   "require": {
-    "php": ">=7.3",
+    "php": ">=8.0",
     "twig/twig": "^2.4||^3.0",
     "nicedump/nicedump": "^1.0"
   },

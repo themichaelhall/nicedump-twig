@@ -10,7 +10,7 @@ Twig extension to dump a variable according to the [NiceDump format specificatio
 
 ## Requirements
 
-- PHP >= 7.3
+- PHP >= 8.0
 
 ## Install with composer
 
