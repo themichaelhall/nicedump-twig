@@ -58,7 +58,7 @@ class NiceDumpTwigExtension extends AbstractExtension
      *
      * @return string The result.
      */
-    public function niceDumpFunction(Environment $environment, $var, string $name = '', string $comment = ''): string
+    public function niceDumpFunction(Environment $environment, mixed $var, string $name = '', string $comment = ''): string
     {
         if (!$environment->isDebug() && !$this->enabledInReleaseMode) {
             return '';
@@ -72,5 +72,5 @@ class NiceDumpTwigExtension extends AbstractExtension
     /**
      * @var bool If true, output is enabled in non-debug mode.
      */
-    private $enabledInReleaseMode = false;
+    private bool $enabledInReleaseMode = false;
 }

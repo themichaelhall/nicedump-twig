@@ -123,23 +123,12 @@ class NiceDumpTwigExtensionTest extends TestCase
     }
 
     /**
-     * Tear down.
-     */
-    protected function tearDown(): void
-    {
-        $this->twigEnvironment = null;
-        $this->niceDumpTwigExtension = null;
-
-        parent::tearDown();
-    }
-
-    /**
      * @var Environment My Twig environment.
      */
-    private $twigEnvironment;
+    private Environment $twigEnvironment;
 
     /**
      * @var NiceDumpTwigExtension My NiceDump Twig extension.
      */
-    private $niceDumpTwigExtension;
+    private NiceDumpTwigExtension $niceDumpTwigExtension;
 }
